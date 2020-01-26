@@ -50,7 +50,7 @@ class TopicItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Hero(
-        // tag: topic.img,
+        tag: topic.img,
         child: Card(
           clipBehavior: Clip.antiAlias,
           child: InkWell(
