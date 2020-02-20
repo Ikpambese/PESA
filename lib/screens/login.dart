@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import '../shared/shared.dart';
+// import '../shared/shared.dart';
 import '../services/services.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -37,6 +37,10 @@ class LoginScreenState extends State<LoginScreen> {
             // FlutterLogo(
             //   size: 150,
             // ),
+            Image.asset(
+              'assets/covers/bsu.jpg',
+              width: 150.0,
+            ),
             Text(
               'Login to Start',
               style: Theme.of(context).textTheme.headline,
